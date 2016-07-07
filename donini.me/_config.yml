@@ -1,0 +1,93 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Rodrigo Donini
+email: me@donini.me
+description: > # this means to ignore newlines until "baseurl:"
+  Empreendedor e Full Stack Developer, apaixonado por tecnologia, Rodrigo S. Donini.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://donini.me" # the base hostname & protocol for your site
+
+#Social profiles
+social_profiles:
+  - name: Twitter
+    username: "donini"
+    url: https://twitter.com/
+  - name: Github
+    username:  "donini"
+    url: 
+  - name: Facebook`
+    username:  "rodrigo.donini"
+    url: https://www.facebook.com/
+  - name: Medium
+    username:  "donini"
+    url: https://medium.com/
+  - name: Youtube
+    username:  "rdonini"
+    url: 
+  - name: Instagram
+    userame: "rodrigodonini"
+    url: https://www.instagram.com/
+
+# Langs
+langs: 
+  - name: Português
+    sigla: pt
+  - name: English
+    sigla: en
+
+# Translated terms
+translate:
+  pt:
+    profile_photo:
+      name: "Donini"
+      position: "Empreendedor e Full Stack Developer"
+      change: mudar para 
+      section: "Eu"
+    profile_about:
+      title: "Sobre"
+      paragraph_1: Meu nome completo é Rodrigo Soares Donini, mas meus amigos me chamam simplesmente de 'Donini' :-). Sou <a href="https://pt.wikipedia.org/wiki/Ga%C3%BAcho" title="gaúcho na wiki" target="_blank">gaúcho</a>, de origem alemã e italiana. Vivo com minha adorável esposa <u>Cláudia</u> e meu filho <u>Cícero.</u>
+      paragraph_2: Atualmente dirijo uma empresa de tecnologia situada no Brasil com o foco de produzir projetos digitais para o mundo.
+      paragraph_3: Possuo alguns projetos pessoais que rodam paralelos à minha vida, a maioria deles estão compartilhados na rede e alguns deles talvez você já conheça como o <a class="aname" title="Fask Task Management" name="Fask Task Management">FTM</a>.
+      paragraph_4: Sou apaixonado por tecnologia, gadgets, montar e fazer minhas próprias coisas, simplicidade e boa música.
+      section: Sobre
+      title_social: Social
+    profile_quote:
+      title: Citação favorita
+      quote: '" Se a opotunidade não bater à sua porta, construa a sua porta. "'
+      author: Milton Berle / Comediante, apresentador de TV e compositor norte-americano.
+      section: Citação
+    copyright: Copyright © 2016 Rodrigo Donini. Make with ♥ and <a href="https://jekyllrb.com/" target="_blank">Jekyll.</a>
+  en:
+    profile_photo:
+      name: "Donini"
+      position: "Entrepreneur and Full Stack Developer"
+      change: change to 
+      section: "Me"
+    profile_about:
+      title: "About"
+      paragraph_1: My full name is Rodrigo Soares Donini, but my friends call me simply "Donini". I <a href="https://pt.wikipedia.org/wiki/Ga%C3%BAcho" title="Gaúcho na wiki" target="_blank">gaúcho</a>, from German and Italian origin. I live with my lovely wife <u>Cláudia</u> and my son <u>Cícero.</u>.
+      paragraph_2: Currently I manage a technology company located in Brazil with a focus on producing digital projects to the world.
+      paragraph_3: I have some personal projects that run parallel to my life, most of them are shared on the internet and some of them you may already know as the <a class="aname" title="Fask Task Management" name="Fask Task Management">FTM</a>.
+      paragraph_4: I am passionate about technology, gadgets, assemble and do my own thing, simplicity and good music.
+      section: About
+      title_social: Social
+    profile_quote:
+      title: Favorite quote
+      quote: '" If opportunity does not knock on your door, build your door. "'
+      author: Milton Berle / Comedian, TV presenter and American composer.
+      section: Quote
+    copyright: Copyright © 2016 Rodrigo Donini. Make with ♥ and <a href="https://jekyllrb.com/" target="_blank">Jekyll.</a>
+
+
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: assets/css/sass
+    style: compressed
