@@ -1,0 +1,28 @@
+{
+	"name": "Português",
+	"terms": [{
+		"profile_photo": {
+			"name": "Donini",
+			"position": "Empreendedor e Full Stack Developer",
+			"change": "mudar para ",
+			"section": "Eu"
+		},
+		"profile_about": {
+			"title": "Sobre",
+			"paragraph_1": "Meu nome completo é Rodrigo Soares Donini, mas meus amigos me chamam simplesmente de 'Donini' :-). Sou <a href='https://pt.wikipedia.org/wiki/Ga%C3%BAcho' title='gaúcho na wiki' target='_blank'>gaúcho</a>, de origem alemã e italiana. Vivo com minha adorável esposa <u>Cláudia</u> e meu filho <u>Cícero.</u>",
+			"paragraph_2": "Atualmente dirijo uma empresa de tecnologia situada no Brasil com o foco de produzir projetos digitais para o mundo.",
+			"paragraph_3": "Possuo alguns projetos pessoais que rodam paralelos à minha vida, a maioria deles estão compartilhados na rede e alguns deles talvez você já conheça como o <a class='aname' title='Fask Task Management' name='Fask Task Management'>FTM</a>.",
+			"paragraph_4": "Sou apaixonado por tecnologia, gadgets, montar e fazer minhas próprias coisas, simplicidade e boa música.",
+			"section": "Sobre",
+			"title_social": "Social"
+		},
+		"profile_quote": {
+			"title": "Citação favorita",
+			"quote": "\" Se a opotunidade não bater à sua porta, construa a sua porta. \"",
+			"author": "Milton Berle / Comediante, apresentador de TV e compositor norte-americano.",
+			"section": "Citação",
+			"copyright": "Copyright © 2016 Rodrigo Donini. Made with ♥ and <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> fork on <a href='https://github.com/donini/personal-page' target='_blank'>Github</a>."
+		},
+		"copyright": "Copyright © 2016 Rodrigo Donini. Made with ♥ and <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> fork on <a href='https://github.com/donini/personal-page' target='_blank'>Github</a>."
+	}]
+}

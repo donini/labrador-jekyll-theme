@@ -13,13 +13,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://donini.me" # the base hostname & protocol for your site
 
-# Langs
-langs: 
-  - name: Português
-    sigla: pt
-  - name: English
-    sigla: en
-
 # Build settings
 markdown: kramdown
 sass:
