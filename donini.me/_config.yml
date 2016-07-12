@@ -13,27 +13,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://donini.me" # the base hostname & protocol for your site
 
-#Social profiles
-social_profiles:
-  - name: Twitter
-    username: "donini"
-    url: https://twitter.com/
-  - name: Github
-    username:  "donini"
-    url: 
-  - name: Facebook`
-    username:  "rodrigo.donini"
-    url: https://www.facebook.com/
-  - name: Medium
-    username:  "donini"
-    url: https://medium.com/
-  - name: Youtube
-    username:  "rdonini"
-    url: 
-  - name: Instagram
-    userame: "rodrigodonini"
-    url: https://www.instagram.com/
-
 # Langs
 langs: 
   - name: Português

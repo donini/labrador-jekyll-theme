@@ -13,8 +13,8 @@
 	<div class="social-links">
 		<h4>{{ site.data.[page.lang]['profile_about'].title_social }}</h4>
 		<ul>
-		{% for network in site.social_profiles %}
-			<li><a href="{{network.url}}" title="@{{network.username}}">{{network.name}}</a></li>
+		{% for network in site.data.social.networks %}
+			<li><a class="fa fa-{{network.name}}" href="{{network.url}}{{network.username}}" title="@{{network.username}}" taget="_blank"></a></li>
 		{% endfor %}
 		</ul>
 	</div>
