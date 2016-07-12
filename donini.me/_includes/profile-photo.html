@@ -1,14 +1,14 @@
-  <header class="profile-photo scrollable-section" data-stellar-background-ratio="0.5" data-section-title="{{ site..translate[page.lang].profile_photo.section }}">
+  <header class="profile-photo scrollable-section" data-stellar-background-ratio="0.5" data-section-title="{{ site.data.[page.lang]['profile_photo'].section }}">
     <div class="photo"></div>
     <div class="my-name">
 
-      <h1>{{ site.translate[page.lang].profile_photo.name }}</h1>
-      <h3>{{ site..translate[page.lang].profile_photo.position }}</h3>
+      <h1>{{ site.data.[page.lang]['profile_photo'].name }}</h1>
+      <h3>{{ site.data.[page.lang]['profile_photo'].position }}</h3>
 
     </div>
     {% for l in site.langs %}
     	{% if l.sigla != page.lang %}
-			<div class="language"><a href="{{site.url}}/{{l.sigla}}" title="{{ site..translate[l.sigla].profile_photo.change }} {{l.name}}">{{l.sigla}}</a></div>
+			<div class="language"><a href="{{site.url}}/{{l.sigla}}" title="{{ site.data.[l.sigla]['profile_photo'].change }} {{l.name}}">{{l.sigla}}</a></div>
     	{% endif %}
     {% endfor %}
     <div class="gradiente"></div>
