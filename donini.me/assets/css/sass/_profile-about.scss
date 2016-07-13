@@ -53,9 +53,6 @@
         }
         ul {
             margin: 30px 0;
-            li:nth-child(1){
-                margin-left: 0;
-            }
             li {
                 display: inline;
                 margin: 0 10px ;
@@ -64,6 +61,38 @@
                     font-weight: 300;
                     &:hover {
                         color: $color_black;
+                    }
+                }
+                &:first-child{
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .profile-about {
+        .text-about,
+        .social-links {
+            width: 88%;
+            padding: 20px;
+            h4 {
+                text-align: center;
+            }
+        }
+        .social-links {
+            margin-top: 10px;
+            ul {
+                text-align: center;
+                li {
+                    a {
+                        font-size: 26px;
                     }
                 }
             }

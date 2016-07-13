@@ -3,8 +3,8 @@ layout: default
 permalink: /en/
 lang: en
 ---
-{% include profile-photo.html %}
+{% include sections/profile-photo.html %}
 
-{% include profile-about.html %}
+{% include sections/profile-about.html %}
 
-{% include profile-quote.html %}
+{% include sections/profile-quote.html %}

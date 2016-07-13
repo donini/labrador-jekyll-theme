@@ -1,17 +1,10 @@
   <header class="profile-photo scrollable-section" data-stellar-background-ratio="0.5" data-section-title="{{ site.data.lang.[page.lang].terms[0]['profile_photo'].section }}">
     <div class="photo"></div>
     <div class="my-name">
-
       <h1>{{ site.data.lang.[page.lang].terms[0]['profile_photo'].name }}</h1>
       <h3>{{ site.data.lang.[page.lang].terms[0]['profile_photo'].position }}</h3>
-
     </div>
-    {% for l in site.data.lang %}
-    	{% if l[0] != page.lang %}
-        {% assign actual_lang_name = l[1].name %}
-        {% assign actual_lang_initial = l[0] %}
-        <div class="language"><a href="{{site.url}}/{{actual_lang_initial}}" title="{{ site.data.lang.[actual_lang_initial].terms[0]['profile_photo'].change }} {{actual_lang_name}}">{{actual_lang_initial}}</a></div>
-    	{% endif %}
-    {% endfor %}
+    {% include general/languages.html %}
+    {% include general/menu.html %}
     <div class="gradiente"></div>
   </header>

@@ -44,8 +44,13 @@ footer .social-links ul li a {
 footer .social-links ul li a:hover {
     color: $color_black;
 }
-footer .copyright-text {
-    color: $color_grey_dark;
+footer {
+    .copyright-text {
+        color: $color_grey_dark;
+        p {
+            font-size: $p_size_footer;
+        }
+    }
 }
 .section-bullets li a {
     opacity: 1;
@@ -82,4 +87,10 @@ footer .copyright-text {
 }
 .section-bullets-white li span {
     color: $color_white !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .bullets-container {
+        display: none;
+    }
 }
