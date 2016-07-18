@@ -12,6 +12,7 @@ This theme was built to present a little bit about of some professional profile 
         - [_data](#_data-folder)
         - [Social links](#social-links)
     - [Components](#components)
+    - [Blog posts](#blog-posts)
     - [Media files for posts](#media-files-for-posts)
 - [Author](#author)
 - [License](#license)
@@ -96,6 +97,24 @@ On _includes folder are located the componentes used on this theme.
 There is two folders:
 * _general_ where are located the general componentes, like header, footer, menu, language change, social links and blog elements.
 * _sections_ where are located the blocks of each section of front page (single-paged).
+
+### Blog posts
+
+The blog posts are located in _posts folder, each file, need this header:
+```
+---
+layout: post
+title:  "[THE_TITLE_OF_YOUR_POST]"
+subtitle: "[THE_SUBTITLE_OF_YOUR_POST]"
+date:   [POST_DATE]
+tags: [TAG1],[TAG2]
+image: /media/[IMAGE_THAT_REPRESENT_YOUR_POST]
+lang: [CODE_OF_LANGUAGE]
+permalink: /blog/:year/:month/:day/:title/ --> [THIS_PERMALINK_PATTERN_CAN_BE_CHANGE_AS_YOU_DESIRE]
+---
+```
+
+The _image:_ variable is used with a placeholder in the middle of content as you desire.
 
 ### Media files for posts
 
