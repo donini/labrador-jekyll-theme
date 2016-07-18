@@ -1,0 +1,41 @@
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="DC.title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+
+    <meta name="DC.description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}">
+
+    <meta property="og:image" content="">
+    <meta name="fb:app_id" content="">
+    <meta property="fb:admins" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="FROONT">
+    <meta name="DC.language" scheme="ISO639-1" content="pt-br">
+
+    <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/section-scroll.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/labrador.css" | prepend: site.baseurl }}">
+
+    <script src="{{ "/assets/js/jquery-2.2.3.min.js" | prepend: site.baseurl }}" ></script>
+    <script src="{{ "/assets/js/jquery.stellar.min.js" | prepend: site.baseurl }}" ></script>
+    <script src="{{ "/assets/js/jquery.section-scroll.js" | prepend: site.baseurl }}" ></script>
+    <script src="{{ "/assets/js/labrador.js" | prepend: site.baseurl }}" ></script>
+
+    <meta name="msapplication-TileImage" content="{{ "/assets/img/icon-144.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" href="{{ "/assets/img/icon-152.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/assets/img/icon.png" | prepend: site.baseurl }}" />
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
