@@ -4,8 +4,8 @@ title: Charlotte
 email: charlotte@labradora.com
 description: > # this means to ignore newlines until "baseurl:"
   Labradora amável, brincalhona e esfomiada, mas que acima de tudo, feliz! <a href="#">@charlotte</a>
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://donini.github.io/labrador-jekyll-theme" # the base hostname & protocol for your site
+baseurl: "labrador-jekyll-theme" # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site
 logo: "/assets/img/logo.png"
 
 # Build settings
