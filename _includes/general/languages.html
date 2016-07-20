@@ -8,7 +8,7 @@
 
 			{% assign actual_lang_name = l[1].name %}
 			{% assign actual_lang_initial = l[0] %}
-			<li><a href="{{site.url}}/{{actual_lang_initial}}" title="{{ site.data.lang.[actual_lang_initial].terms[0]['profile_photo'].change }} {{actual_lang_name}}">{{actual_lang_initial}}</a></li>
+			<li><a href="{{ site.url | prepend: site.baseurl }}/{{actual_lang_initial}}" title="{{ site.data.lang.[actual_lang_initial].terms[0]['profile_photo'].change }} {{actual_lang_name}}">{{actual_lang_initial}}</a></li>
 
 		{% endif %}
 

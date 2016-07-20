@@ -3,7 +3,7 @@
 	<ul class="posts">
 	{% for post in site.posts limit:3 %}
 		<li>
-			<a href="{{ post.url }}">
+			<a href="{{ site.url | prepend: site.baseurl }}{{ post.url }}">
 				<span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
 				{{ post.title }}
 				<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
@@ -11,5 +11,5 @@
 		</li>
 	{% endfor %}
 	</ul>
-	<a href="/blog" class="more-posts">{{ site.data.lang.[page.lang].terms[0]['blog_posts'].more_posts }}</a>
+	<a href="{{ site.url | prepend: site.baseurl }}/blog" class="more-posts">{{ site.data.lang.[page.lang].terms[0]['blog_posts'].more_posts }}</a>
 </section>

@@ -64,9 +64,14 @@
                 font-weight: bold;
                 text-transform: uppercase;
                 margin: 0 3px;
+                background: $color_white;
+                padding: 5px;
+                border-radius: 3px;
+                -webkit-opacity: 0.5;
+                opacity: 0.5;
                 &:hover {
-                    -webkit-opacity: 0.5;
-                    opacity: 0.5;
+                    -webkit-opacity: 1;
+                    opacity: 1;
                 }
             }
             &:after {
@@ -110,14 +115,16 @@
     transition: opacity 2.0s ease-in;
     opacity: 1;
 }
+/*
 .profile-photo-white {
     .language {
         a{
             color: $color_white !important;
+            background: $color_black !important;
         }
     }
 }
-
+*/
 /* RESPONSIVE */
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .profile-photo-white {

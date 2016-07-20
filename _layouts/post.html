@@ -25,7 +25,7 @@ layout: blog
     {% for post in site.related_posts limit:5 %}
       <li>
         <h3>
-          <a href="{{ post.url }}">
+          <a href="{{ site.url | prepend: site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date: "%d/%m/%Y" }}</small>
           </a>
