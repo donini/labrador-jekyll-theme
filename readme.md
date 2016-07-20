@@ -1,6 +1,6 @@
 # Labrador Jekyll Theme v1.0
 
-This theme was built to present a little bit about of some professional profile to meet the needs of [donini.me](http://donini.me).
+This theme was built to present a little bit about of some professional profile to meet the needs of [https://donini.github.io/labrador-jekyll-theme/](https://donini.github.io/labrador-jekyll-theme/).
 
 ## Contents
 
