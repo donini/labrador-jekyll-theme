@@ -12,7 +12,6 @@ logo: "/assets/img/logo.png"
 paginate: 10
 paginate_path: "/blog/page:num/"
 markdown: kramdown
-highlighter: pygments
 sass:
     sass_dir: assets/css/sass
     style: compressed
