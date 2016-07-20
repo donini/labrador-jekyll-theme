@@ -1,6 +1,9 @@
 # Labrador Jekyll Theme v1.0
 
-This theme was built to present a little bit about of some professional profile to meet the needs of [https://donini.github.io/labrador-jekyll-theme/](https://donini.github.io/labrador-jekyll-theme/).
+This theme was built to present a little bit about of some professional profile.
+
+## Demo
+- [https://donini.github.io/labrador-jekyll-theme/](https://donini.github.io/labrador-jekyll-theme/)
 
 ## Contents
 
@@ -126,4 +129,4 @@ This folder contains the resources for posts, like images, documents, etc.
 
 ### License
 
-Open sourced under the [MIT license](https://github.com/donini/labrador-jekyll-theme/blob/master/LICENSE.md).
+Open sourced under the [MIT license](https://github.com/donini/labrador-jekyll-theme/blob/master/LICENSE.md).CENSE.md).
