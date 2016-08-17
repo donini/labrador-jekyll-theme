@@ -5,6 +5,7 @@
 			"name": "Labrador",
 			"position": "Amigo fiel",
 			"change": "mudar para ",
+			"scroll_down": "Rolar para baixo",
 			"section": "Eu"
 		},
 		"profile_about": {

@@ -107,6 +107,22 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
         z-index: 8;
     }
+    .scroll-down {
+        background: url(../img/scroll-down.png) top center no-repeat;
+        width: 75px;
+        height: 40px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        margin-left: -12px;
+        span {
+            font-size: 10px;
+            display: block;
+            text-align: center;
+            margin-top: 45px;
+            font-weight: bold;
+        }
+    }
 }
 .profile-photo-show {
     -webkit-transition: opacity 2.0s ease-in;
