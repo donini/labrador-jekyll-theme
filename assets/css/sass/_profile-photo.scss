@@ -59,6 +59,13 @@
         z-index: 9999;
         li {
             display: inline;
+            &.ativo {
+                display: none !important;
+                a {
+                    background-color: #000000;
+                    color: #ffffff;
+                }
+            }
             a{
                 color: $color_black;
                 font-weight: bold;
@@ -76,6 +83,7 @@
             }
             &:after {
                 content: '|';
+                margin-left: 6px;
             }
             &:last-child {
                 &:after {
@@ -114,7 +122,7 @@
         position: absolute;
         bottom: 50px;
         left: 50%;
-        margin-left: -12px;
+        margin-left: -37px;
         span {
             font-size: 10px;
             display: block;
@@ -164,6 +172,9 @@
         }
         .language {
             display: none;
+            li.ativo {
+                display: inline !important;
+            }
         }
         .btn-responsive-menu {
             display: block;
