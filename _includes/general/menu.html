@@ -2,7 +2,7 @@
 <div class="responsive-menu">
 	<a href="#" class="fa fa-bars btn-responsive-menu"></a>
 	<div class="menu">
-		<img src="{{ site.logo | prepend: site.url | prepend: baseurl}}" class="logo" />
+		<img src="{{ site.url | append: site.logo }}" class="logo" />
 
 		<ul>
 			<li><span>Linguagens </span>{% include general/languages.html %}</li>
